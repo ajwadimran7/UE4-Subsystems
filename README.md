@@ -1,5 +1,5 @@
-# ue4_subsystems
-Messing around with UE4 subsystems in C++.
+# UE4 Subsystem playground
+Messing around with subsystems in C++ with UE 4.25.
 
 
 The FTickableGameObject folder has the Engine subsystem that Ticks in the Editor and at runtime.
