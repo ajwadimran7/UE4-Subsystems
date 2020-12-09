@@ -14,3 +14,9 @@ void UAjwadEngineSubsystem::TickObjects(const float DeltaTime)
 {
 	UE_LOG(LogTemp, Warning, TEXT("Ajwad Engine Subsystem is Ticking."));
 }
+
+TStatId UAjwadGameInstanceSubsystem::GetStatId() const
+{
+	return GetStatID();
+}
+
