@@ -10,4 +10,6 @@ In case you didn't know, the subsystem classes are instantiated and managed by t
 
 Subsystems livestream: https://www.youtube.com/watch?v=v5b1FvKBYzc
 Working with subsystems (Documentation): https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Subsystems/index.html
+
+Making it tick:
 FTickableObjectBase class: https://docs.unrealengine.com/en-US/API/Runtime/Engine/FTickableObjectBase/index.html
