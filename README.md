@@ -6,6 +6,8 @@ The FTickableGameObject folder has the Engine subsystem that Ticks in the Editor
 
 The FTickableEditorObject folder has the Engine subsystem that Ticks in the Editor only and you must include the "UnrealEd" module in the public depencency of your Build file.
 
+The Initializing dependency example folder has two Game Instance subsystem in which one AjwadGameInstanceSubsystem is dependent on RogerioGameInstanceSubsystem so it initializes it first. This can greatly help when you need another subsystem to start first before you want do some stuff in the other subsystems.
+
 Learning resources:
 
 In case you didn't know, the subsystem classes are instantiated and managed by the Engine itself. See the second link down below to know more about different subsystems and their lifetime.
