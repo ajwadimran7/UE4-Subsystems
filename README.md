@@ -2,7 +2,7 @@
 Messing around with UE4 subsystems in C++.
 
 
-The FTickableGameObject folder has the Engine subsystem that Ticks in Editor and in the play-mode.
+The FTickableGameObject folder has the Engine subsystem that Ticks in the Editor and at runtime.
 
 Learning resources:
 
